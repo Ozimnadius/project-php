@@ -1,4 +1,4 @@
-<?require($_SERVER["DOCUMENT_ROOT"]."/src/core/top.php");?>
+<?require("src/core/top.php");?>
 
 <!-- main -->
 <div class="page">
@@ -10,4 +10,4 @@
 </div>
 <!-- END main -->
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/src/core/bottom.php");?>
+<?require("src/core/bottom.php");?>

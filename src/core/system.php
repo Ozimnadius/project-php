@@ -11,7 +11,7 @@ function template(string $path, array $vars = []): string
 
 function component(string $name, array $vars = []): string
 {
-    $fullPath = $_SERVER["DOCUMENT_ROOT"]."/src/components/$name/index.php";
+    $fullPath = $GLOBALS['path']."/src/components/$name/index.php";
     extract($vars);
     return include($fullPath);
 }

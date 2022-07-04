@@ -1,3 +1,3 @@
 <?php
-
-include_once($_SERVER["DOCUMENT_ROOT"].'/src/core/system.php');
+$GLOBALS['path'] = $_SERVER["DOCUMENT_ROOT"];
+include_once('system.php');
