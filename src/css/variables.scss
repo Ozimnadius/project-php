@@ -1,0 +1,25 @@
+:root{
+  --font: Arial, sans-serif;
+  --font-size: 16px;
+  --font-weight: 400;
+  --line-height: 1.42;
+
+  --container-width: 1170px;
+  --container-padding: 0 20px;
+
+  --txt: #000000;
+  --bg: #ffffff;
+  --link: #e7511c;
+  --link-hover: #6f1e00;
+  --btn: #bfa058;
+
+  --transition: 0.3s;
+}
+
+$font: var(--font);
+$font-size: var(font-size);
+
+$txt: var(--txt);
+$bg: var(--bg);
+$link: var(--link);
+$gold: var(--gold);
