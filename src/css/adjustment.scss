@@ -48,11 +48,11 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--link);
+  color: currentColor;
   outline: none;
 
   &:hover{
-    color: var(--link-hover);
+    color: currentColor;
   }
 }
 

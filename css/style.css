@@ -155,12 +155,12 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--link);
+  color: currentColor;
   outline: none;
 }
 
 a:hover {
-  color: var(--link-hover);
+  color: currentColor;
 }
 
 h1,
@@ -204,6 +204,30 @@ textarea {
 .header {
   height: 100px;
   background-color: grey;
+}
+
+.btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn * {
+  position: relative;
+  z-index: 2;
+}
+
+.btn-default {
+  padding: 12px 35px;
+  border: 1px solid var(--btn);
 }
 
 .footer {

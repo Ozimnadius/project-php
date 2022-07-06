@@ -1,0 +1,17 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+
+  *{
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.btn-default{
+  padding: 12px 35px;
+  border: 1px solid var(--btn);
+}
