@@ -183,3 +183,100 @@ template {
 [hidden] {
   display: none;
 }
+
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+blockquote,
+body,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+ol,
+p,
+ul {
+  margin: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.42;
+}
+
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip-ink: auto;
+}
+
+a:is([class]) {
+  text-decoration: none;
+  color: currentColor;
+  outline: none;
+}
+
+a:is([class]):hover {
+  color: currentColor;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+select,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+  color: inherit;
+}
+
+@media (prefers-reduced-motion:reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  :after,
+  :before {
+    -webkit-animation-duration: 0.01ms!important;
+    animation-duration: 0.01ms!important;
+    -webkit-animation-iteration-count: 1!important;
+    animation-iteration-count: 1!important;
+    -webkit-transition-duration: 0.01ms!important;
+    transition-duration: 0.01ms!important;
+    scroll-behavior: auto!important;
+  }
+}
