@@ -1,3 +1,9 @@
+@use "mixins" as ui;
+
+html{
+  scrollbar-gutter: stable;
+}
+
 body {
   background: var(--color-bg);
   font-family: var(--font);
@@ -28,8 +34,4 @@ body {
   max-width: var(--container-width);
   padding: var(--container-padding);
   margin: 0 auto;
-}
-
-.content {
-  @include content;
 }

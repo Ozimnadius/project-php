@@ -11,24 +11,22 @@
     <meta name="description" content="Страница">
 
     <!--ICON-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/images/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?=$GLOBALS['templatePath'];?>/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?=$GLOBALS['templatePath'];?>/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?=$GLOBALS['templatePath'];?>/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="<?=$GLOBALS['templatePath'];?>/images/favicon/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
     <!--CSS-->
-    <link rel="stylesheet" href="/css/libs.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <!-- Для изменений после верстки-->
-    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="<?=$GLOBALS['templatePath'];?>/libs/styles.css">
+    <link rel="stylesheet" href="<?=$GLOBALS['templatePath'];?>/styles.css">
 
     <!--JS-->
-    <script defer src="/js/libs.js"></script>
-    <script defer src="/js/script.js"></script>
+    <script defer src="<?=$GLOBALS['templatePath'];?>/libs/scripts.min.js"></script>
+    <script defer src="<?=$GLOBALS['templatePath'];?>/js/scripts.js"></script>
     <!-- Для изменений после верстки-->
-    <script defer src="/js/custom.js"></script>
+    <script defer src="<?=$GLOBALS['templatePath'];?>/js/custom.js"></script>
 </head>
 <body>
 
