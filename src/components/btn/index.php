@@ -1,12 +1,12 @@
-<? $default = array(
+<?/* $default = array(
     "href" => "#",
     "class" => "btn-default",
     "text" => "Кнопка"
 );
 
-$result = array_merge($default, $vars);
-?>
+$result = array_merge($default, $params);
+*/?>
 
-<a href="<?= $result["href"]; ?>" class="btn <?= $result["class"]; ?>">
-    <span><?= $result["text"]; ?></span>
+<a href="<?= $arResult["href"]; ?>" class="btn <?= $arResult["class"]; ?>">
+    <span><?= $arResult["text"]; ?></span>
 </a>
