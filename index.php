@@ -9,7 +9,10 @@
         <br>
         <br>
         <br>
-        <? component("btn", ["text" => "КнопкаTest"]); ?>
+        <a href="/" class="btn ">
+            <span>Кнопка</span>
+        </a>
+
 
     </div>
 </div>

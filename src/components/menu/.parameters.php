@@ -1,0 +1,3 @@
+<?php $arComponentParameters = [
+    "class" => "menu",
+];
