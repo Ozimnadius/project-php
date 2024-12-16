@@ -24,7 +24,7 @@ function component(string $name, array $params = [], string $dataUrl = ''): stri
     }
 
     if (!empty($dataUrl)) {
-        $arResult = file_get_contents($dataUrl);
+        $arResult = file_get_contents($GLOBALS['path']."/".$dataUrl);
         $arResult = json_decode($arResult, true);
     }
 
