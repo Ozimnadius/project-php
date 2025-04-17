@@ -1,13 +1,13 @@
 //USER
-@import "css/core/variables";
-@import "css/core/ui/styles";
-@import "css/core/fonts";
-@import "css/core/adjustment";
-@import "css/core/common";
+@use "css/core/variables";
+@use "css/core/fonts";
+@use "css/core/adjustment";
+@use "css/core/globals";
 
 //COMPONENTS
-@import "css/components/header";
+@use "css/components/header";
 
 
 
-@import "css/components/footer";
+
+@use "css/components/footer";
