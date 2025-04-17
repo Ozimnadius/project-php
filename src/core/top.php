@@ -24,7 +24,7 @@
 
     <!--JS-->
     <script defer src="<?=$GLOBALS['templatePath'];?>/libs/scripts.min.js"></script>
-    <script defer src="<?=$GLOBALS['templatePath'];?>/js/scripts.js"></script>
+    <script type="module" defer src="<?=$GLOBALS['templatePath'];?>/js/scripts.js"></script>
     <!-- Для изменений после верстки-->
     <script defer src="<?=$GLOBALS['templatePath'];?>/js/custom.js"></script>
 </head>
