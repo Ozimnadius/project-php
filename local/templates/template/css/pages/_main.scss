@@ -1,0 +1,13 @@
+@use "../helpers" as *;
+
+.main{
+    &__banner{}
+    &__advantages{}
+    &__calculator{}
+    &__cars{}
+    &__how{}
+    &__conditions{}
+    &__requirements{}
+    &__faq{}
+    &__feedback{}
+}

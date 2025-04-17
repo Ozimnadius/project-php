@@ -34,3 +34,14 @@ h5, .h5 {
 h6, .h6 {
   font-size: 18px;
 }
+
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  padding: var(--container-padding);
+  margin: 0 auto;
+}
+
+.page {
+  overflow: hidden;
+}

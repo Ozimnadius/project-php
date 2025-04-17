@@ -16,7 +16,7 @@
   --font-size: 16px;
   --font-weight: 400;
   --line-height: 1.42;
-  --container-width: 1170px;
+  --container-width: 1210px;
   --container-padding: 0 20px;
   --transition: 0.4s;
 }
@@ -113,17 +113,6 @@ body {
   flex-grow: 1;
 }
 
-.page {
-  overflow: hidden;
-}
-
-.container {
-  width: 100%;
-  max-width: var(--container-width);
-  padding: var(--container-padding);
-  margin: 0 auto;
-}
-
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -156,4 +145,20 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 18px;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  padding: var(--container-padding);
+  margin: 0 auto;
+}
+
+.page {
+  overflow: hidden;
+}
+
+.banner {
+  background: #000;
+  height: 200px;
 }
